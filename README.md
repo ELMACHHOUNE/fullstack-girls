@@ -38,3 +38,8 @@ JWT_SECRET=khjdqhidqhofdl
 PORT=5000
 
 ### after inter into backend and run npm i
+
+
+conversation chatgpt :)
+
+https://chatgpt.com/share/675871f8-c1b0-8002-9af3-6f26fd80ce93
