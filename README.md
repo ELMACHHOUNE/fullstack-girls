@@ -43,6 +43,15 @@ MONGO_URI="mongodb://localhost:27017/ecom_girls"
 JWT_SECRET=khjdqhidqhofdl
 PORT=5000
 
+<<<<<<< HEAD
 after inter into backend and run npm i
 
 
+=======
+### after inter into backend and run npm i
+
+
+conversation chatgpt :)
+
+https://chatgpt.com/share/675871f8-c1b0-8002-9af3-6f26fd80ce93
+>>>>>>> 571bc1803c09731723f266626b26f7b06deab015
