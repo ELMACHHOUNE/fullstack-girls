@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard</title>
+  <link href="./css/tailwind.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto p-4">
+    <h1 class="text-2xl font-bold mb-4">Available Products</h1>
+    <div id="productList" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+    <h2 class="text-2xl font-bold mt-8 mb-4">Your Cart</h2>
+    <div id="cartItems" class="bg-white p-4 rounded-lg shadow-md">
+      <p class="text-gray-500">Your cart is empty.</p>
+    </div>
+    <button
+      id="checkoutBtn"
+      class="bg-blue-500 text-white px-4 py-2 rounded mt-4 hidden"
+      onclick="checkout()"
+    >
+      Checkout
+    </button>
+  </div>
+  <script src="./js/user-dashboard.js"></script>
+</body>
+</html>

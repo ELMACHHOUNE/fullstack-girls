@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="./css/tailwind.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <div class="flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-4xl">
+      <h2 class="text-2xl font-bold mb-4">Welcome to your Dashboard</h2>
+      <p class="text-lg">Here you can manage your profile, settings, and more!</p>
+      <!-- Add other dashboard content here -->
+      <button id="logoutBtn" class="bg-red-500 hover:bg-red-700 text-white py-2 px-4 rounded mt-4">Logout</button>
+    </div>
+  </div>
+  
+  <script>
+    document.getElementById("logoutBtn").addEventListener("click", () => {
+      // Clear the token from localStorage
+      localStorage.removeItem("token");
+      // Redirect to the login page
+      window.location.href = "/login";
+    });
+  </script>
+</body>
+</html>
