@@ -31,10 +31,18 @@ This project is a web application designed for **[describe the purpose of your a
 
 ### Steps
 
+### clone 
+
+git clone https://github.com/ELMACHHOUNE/fullstack-girls.git
+
+
 ### .env : 
+create a .env file and copy this code : 
 
 MONGO_URI="mongodb://localhost:27017/ecom_girls"
 JWT_SECRET=khjdqhidqhofdl
 PORT=5000
 
-### after inter into backend and run npm i
+after inter into backend and run npm i
+
+
